@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<roleRegistry xmlns="http://www.geoserver.org/security/roles" version="1.0">
+    <roleList>
+        <role id="ADMIN"/>
+        <role id="Editor"/>
+        <role id="GROUP_ADMIN"/>
+        <role id="Tata_Ruang"/>
+        <role id="Viewer"/>
+    </roleList>
+    <userList>
+        <userRoles username="admin">
+            <roleRef roleID="ADMIN"/>
+        </userRoles>
+        <userRoles username="john">
+            <roleRef roleID="Tata_Ruang"/>
+        </userRoles>
+    </userList>
+    <groupList/>
+</roleRegistry>

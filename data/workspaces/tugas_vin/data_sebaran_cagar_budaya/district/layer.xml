@@ -1,0 +1,17 @@
+<layer>
+  <name>district</name>
+  <id>LayerInfoImpl--6668d9ed:19c665a5305:-7ff6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6668d9ed:19c665a5305:-7ff7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-02-16 12:26:08.931 UTC</dateCreated>
+  <dateModified>2026-02-25 17:18:54.789 UTC</dateModified>
+</layer>

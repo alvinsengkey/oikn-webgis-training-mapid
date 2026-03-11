@@ -1,0 +1,17 @@
+<layer>
+  <name>cagarbudaya_joined</name>
+  <id>LayerInfoImpl--6d8fc9d6:19cb1a5c76e:-795a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-37b18cc6:14d5d036d48:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6d8fc9d6:19cb1a5c76e:-795b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-03-04 16:15:26.754 UTC</dateCreated>
+  <dateModified>2026-03-04 16:27:37.470 UTC</dateModified>
+</layer>

@@ -1,0 +1,17 @@
+<layer>
+  <name>cagarbudaya_partition</name>
+  <id>LayerInfoImpl--6668d9ed:19c665a5305:-7ff3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6668d9ed:19c665a5305:-7ff4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-02-16 12:33:42.444 UTC</dateCreated>
+  <dateModified>2026-02-25 15:55:53.559 UTC</dateModified>
+</layer>

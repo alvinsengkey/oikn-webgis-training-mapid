@@ -1,0 +1,22 @@
+<layer>
+  <name>rdtr_wpkipp</name>
+  <id>LayerInfoImpl--4159297c:19ba7c6a87b:-7fed</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4159297c:19ba7c6a87b:-7fec</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--4159297c:19ba7c6a87b:-7fec</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4159297c:19ba7c6a87b:-7fee</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-01-13 14:20:11.367 UTC</dateCreated>
+  <dateModified>2026-01-13 14:59:52.950 UTC</dateModified>
+</layer>

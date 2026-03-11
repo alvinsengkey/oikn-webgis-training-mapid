@@ -12,9 +12,15 @@ dist
 dist-ssr
 *.local
 
-# Docker Data Folders
+# Docker Database Volume (Do Not Push)
 data_postgis/
-data/
+
+# Ignore extremely large GeoSpatial Files to prevent GitHub rejection (>100MB)
+*.gpkg
+*.gdb/
+*.dbf
+*.shp
+*.shx
 
 # Editor directories and files
 .vscode/*

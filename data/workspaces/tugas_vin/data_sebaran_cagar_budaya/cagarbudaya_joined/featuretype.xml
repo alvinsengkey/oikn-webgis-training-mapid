@@ -1,0 +1,67 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--6d8fc9d6:19cb1a5c76e:-795b</id>
+  <name>cagarbudaya_joined</name>
+  <nativeName>cagarbudaya_joined</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--6668d9ed:19c665a5305:-7fff</id>
+  </namespace>
+  <title>cagarbudaya_joined</title>
+  <keywords>
+    <string>features</string>
+    <string>cagarbudaya_joined</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>95.31514400000003</minx>
+    <maxx>140.41250000000002</maxx>
+    <miny>-10.16261499999996</miny>
+    <maxy>5.63450400000005</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>95.31514400000003</minx>
+    <maxx>140.41250000000002</maxx>
+    <miny>-10.16261499999996</miny>
+    <maxy>5.63450400000005</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>cagarbudaya_joined</name>
+        <sql>SELECT cb.*, p.name AS province_name, d.name AS district_name&#xd;
+FROM cagar_budaya.cagarbudaya_partition cb&#xd;
+LEFT JOIN cagar_budaya.province p ON cb.province_id = p.id&#xd;
+LEFT JOIN cagar_budaya.district d ON cb.district_id = d.id
+</sql>
+        <escapeSql>false</escapeSql>
+      </virtualTable>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--6668d9ed:19c665a5305:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
