@@ -1,0 +1,21 @@
+.handler-btn:hover {
+    background: rgb(55, 4, 61) !important;
+}
+
+.handler-btn.active::before {
+    content: '●' !important;
+    color: black;
+}
+.handler-btn.active:hover::before {
+    content: '●' !important;
+    color: white;
+}
+
+.handler-btn.inactive::before {
+    content: '○' !important;
+    color: black;
+}
+.handler-btn.inactive:hover::before {
+    content: '○' !important;
+    color: white;
+}

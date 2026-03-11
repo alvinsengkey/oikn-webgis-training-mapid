@@ -1,0 +1,26 @@
+services:
+  # The Database
+  db:
+    image: postgis/postgis:18-3.6
+    environment:
+      POSTGRES_DB: oikn_mapid
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1323537
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./data_postgis:/var/lib/postgresql
+      - ./backup_postgres_oikn_mapid.dump:/backup.dump
+
+  # GeoServer
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.28.0
+    environment:
+      INSTALL_EXTENSIONS: true
+      STABLE_EXTENSIONS: vectortiles
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./data:/opt/geoserver_data
+    depends_on:
+      - db
